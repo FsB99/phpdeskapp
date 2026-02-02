@@ -17,7 +17,7 @@ switch ($path) {
 
   case '/api/status':
     header('Content-Type: application/json');
-    require __DIR__ . '/../pages/api_status.php';
+    echo json_encode(['status' => 'pong']);
     break;
 
   default:

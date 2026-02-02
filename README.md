@@ -28,16 +28,19 @@ php --ini
 extension=phar
 ```
 
-6. To build it into phar file, run this command on console:
+6. If You need to use some php-ext for the compiler, here's the link to documentation:
+[phpacker](https://phpacker.dev/docs/installation/)
+
+7. To build it into phar file, run this command on console:
 ``` php
 php builder.php -a phar
 ```
 
-7. Then to build the phar to into exe files, run cli 
+8. Then to build the phar to into exe files, run cli 
 
 ``` php
 php builder.php -a exe
 ```
 
-8. Congrat, now You got desktop application with PHP :)
+9. Congrat, now You got desktop application with PHP :)
 - The exe files located on build/{os}/
